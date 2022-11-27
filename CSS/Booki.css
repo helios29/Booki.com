@@ -1,0 +1,112 @@
+/* Classe générale */
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0px 1rem;
+}
+
+.center_element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_left{
+    padding-left: 10px;
+}
+
+.padding_bottom{
+    padding-bottom: 0.3em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.hover_click:link {
+    text-decoration: none;
+  }
+
+.hover_click:visited {
+    text-decoration: none;
+    color: #000000;
+  }
+
+.hover_click:hover{
+    text-decoration: none;
+}
+
+.blue_icon{
+    padding-right: 10px;
+    color: #0065FC;
+}
+
+.blue_star{
+    color: #0065FC;
+    width: 12px;
+    height: 12px;
+}
+
+.grey_star{
+    color: #D9D9D9;
+    width: 12px;
+    height: 12px;
+}
+
+/* hébergements et popular */
+
+.popular_accommodation{
+    display: flex;
+}
+
+.hotel{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+/* Tablette */
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    .popular_accommodation {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    h3 {
+        flex-wrap: wrap;
+    }
+    
+}
+
+/* Téléphone */
+@media only screen and (max-width:767px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    
+     /* Slogan */
+    .slogan{
+        padding-left: 3%;
+    }
+  
+
+    /* Les plus populars - hébergements */
+    .popular_accommodation{
+        flex-direction: column-reverse;
+    }
+
+}
+

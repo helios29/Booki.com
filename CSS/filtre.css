@@ -1,0 +1,60 @@
+/* filter */
+
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 17px;
+    height: auto;
+    width: auto;
+    margin:2em 0em;
+    gap: 1rem;
+}
+
+.container_filter{
+    display: flex;
+    width: auto;
+    gap: 1rem;
+}
+
+.filter_item{
+    width : auto;
+    padding: 0.5rem;
+    border: 2px solid #D9D9D9;
+    border-radius: 2rem;
+}
+
+.filter_item:hover{
+    cursor: pointer;
+    background-color: rgb(222 235 254);   
+}
+
+
+@media only screen and (max-width:767px){
+
+    .filter{
+        margin-left: 3%;
+        width: auto;
+        height:auto;
+    }
+    
+    .container_filter{
+        flex-wrap: wrap;
+    }
+
+     .btn_filter_name{
+        width: 100%;
+    }
+
+    .filter_item{
+        justify-content: flex-start;
+        flex: 1;
+        margin-right:0.5rem;
+        min-width:8rem;
+        max-width: 13rem;
+    }
+
+    .filter_btn_title{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,10 @@
+/* Slogan */
+
+.slogan {
+    margin: 2em 0em;
+}
+
+.slogan h2 {
+    font-weight: 400;
+    font-size: 16px;
+}

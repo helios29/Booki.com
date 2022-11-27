@@ -1,0 +1,47 @@
+/* footer */
+
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer_title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 2rem 0;
+}
+
+.footer_description{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 1rem;
+    
+}
+
+/* Tablette */
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    footer{
+        width: auto;
+    }
+}
+
+/* Téléphone */
+@media only screen and (max-width:767px){
+    footer{
+        flex-direction: column;
+    }
+
+    .footer_item{
+        margin-left: 3%;
+    }
+
+}
