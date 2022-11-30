@@ -2,7 +2,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1em 0em;
+    align-items: flex-end;
+    margin-bottom: 1em;
 }
 
 .logo{
@@ -17,6 +18,8 @@ header{
     header{
         display: flex;
         flex-direction: column;
+        align-items:normal;
+        padding-top: 10px;
     }
 
     .logo{

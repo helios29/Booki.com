@@ -19,6 +19,7 @@
 
 .information_description{
     font-size: 16px;
+    padding-left: 15px;
 }
 
 
@@ -27,5 +28,9 @@
     .information{
         width: auto;
         height: auto;
+    }
+
+    .logo_information{
+        margin-left: 3%;
     }
 }

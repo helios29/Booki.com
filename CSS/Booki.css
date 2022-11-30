@@ -1,8 +1,26 @@
 /* Classe générale */
 
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 body{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    margin: 0px 1rem;
+}
+
+#main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100%;
 }
 
 .center_element{
@@ -54,6 +72,10 @@ h1 {
     height: 12px;
 }
 
+section{
+    flex: 1;
+}
+
 /* hébergements et popular */
 
 .popular_accommodation{
@@ -69,8 +91,6 @@ h1 {
     font-size: 14px;
     font-weight: 400;
 }
-
-
 
 
 /* Tablette */
@@ -97,6 +117,10 @@ h1 {
         height: auto;
     }
     
+    #main-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
      /* Slogan */
     .slogan{
         padding-left: 3%;

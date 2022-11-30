@@ -27,13 +27,11 @@
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    /* padding: 5px 5px 0px 5px; */
 }
 
 .display{
     font-size: 18px;
     font-weight: 700;
-    /* margin-top: 10px; */
 }
 
 .hover_click:link {
@@ -53,13 +51,10 @@
 
 @media only screen and (min-width:768px) and (max-width:992px){
 
-
     .accommodation{
         width: auto;
         margin-right: 0;
         margin-bottom: 1em;
-        /* padding-top: 40px; */
-        /* padding-bottom: 40px; */
     }
 
     .image_resize_accommodation{
