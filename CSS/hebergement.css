@@ -1,5 +1,5 @@
 /* hébergements */
-.accommodation {
+#accommodation {
     background-color: #F2F2F2;
     border-radius: 10px;
     flex: 2;
@@ -29,11 +29,6 @@
     border-radius: 20px 20px 0px 0px;
 }
 
-.display{
-    font-size: 18px;
-    font-weight: 700;
-}
-
 .hover_click:link {
     text-decoration: none;
     color: #000000;
@@ -49,9 +44,13 @@
     color: #000000;
 }
 
+.display{
+    font-weight: bold;
+}
+
 @media only screen and (min-width:768px) and (max-width:992px){
 
-    .accommodation{
+    #accommodation{
         width: auto;
         margin-right: 0;
         margin-bottom: 1em;
@@ -65,7 +64,7 @@
 
 @media only screen and (max-width:767px){
 
-    .accommodation{
+    #accommodation{
         margin-right: 0;
         background-color: white;
     }

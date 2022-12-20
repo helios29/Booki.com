@@ -41,10 +41,6 @@
         flex-wrap: wrap;
     }
 
-     .btn_filter_name{
-        width: 100%;
-    }
-
     .filter_item{
         justify-content: flex-start;
         flex: 1;

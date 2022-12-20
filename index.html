@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./CSS/Booki.css" rel="stylesheet">
+    <link href="./CSS/style.css" rel="stylesheet">
     <link href="./CSS/search.css" rel="stylesheet">
     <link href="./CSS/filtre.css" rel="stylesheet">
     <link href="./CSS/hebergement.css" rel="stylesheet">
@@ -30,8 +30,8 @@
             <img class="logo" src="Images/logo/Booki.png"  alt="Booki logo">
             <nav>
                 <div class="nav_list">
-                    <a href="#accommodations" class="nav_item nav_accommodation">Hébergements</a>
-                    <a href="#activity_title" class="nav_item">Activités</a>
+                    <a href="#accommodation" class="nav_item nav_accommodation">Hébergements</a>
+                    <a href="#activities" class="nav_item">Activités</a>
                 </div>
             </nav>
         </header>
@@ -44,11 +44,11 @@
             
         <form class="search">
             <div class="location_icon center_element"><i class="fa-solid fa-location-dot"></i></div>
-        <input class="barre_search center_element" type="search" placeholder="Marseille, France">
-        <div class="search_button center_element">
-            <p>Rechercher</p>
-            <i class="fa-solid fa-magnifying-glass center_element"></i>
-        </div>
+            <input class="barre_search center_element" type="search" placeholder="Marseille, France">
+            <button class="search_button center_element">
+                <p>Rechercher</p>
+                <i class="fa-solid fa-magnifying-glass center_element"></i>
+            </button>
         </form>
 
         <div class="filter">
@@ -87,7 +87,7 @@
             
             <div class="popular_accommodation">
 
-                <div class="accommodation">
+                <div id="accommodation">
                     <h1>Hébergements à Marseille</h1>
                     <div class="container_accommodation_card">
                         <div class="accommodation_card">
@@ -262,7 +262,7 @@
             </div>
             
 
-            <article class="activities">
+            <article id="activities">
                 <h1>Activités à Marseille</h1>
                 
                 <div class="container_activity_item">
@@ -299,22 +299,28 @@
 
         <footer>
             <div class="footer_item">
-                <div class="footer_title">À propos</div>
-                <div class="footer_description">Fonctionnement du site</div>
-                <div class="footer_description">Conditions générales</div>
-                <div class="footer_description">Données et confidentialités</div>
+                <h3>À propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Données et confidentialités</a></li>
+                </ul>
             </div>
 
             <div class="footer_item">
-                <div class="footer_title">Nos hébergements</div>
-                <div class="footer_description">Charte qualité</div>
-                <div class="footer_description">Proposer votre hôtel</div>
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
+                </ul>
             </div>
 
             <div class="footer_item">
-                <div class="footer_title">Assitance</div>
-                <div class="footer_description">Centre d'aide</div>
-                <div class="footer_description">Nous contacter</div>
+                <h3>Assitance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
             </div>
 
         </footer>

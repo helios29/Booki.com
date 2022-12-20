@@ -1,6 +1,6 @@
 /* activité */
 
-.activities{
+#activities{
     margin: 3rem 0;
 }
 
@@ -33,7 +33,7 @@ h3 {
 /* Tablette */
 @media only screen and (min-width:768px) and (max-width:992px){
 
-    .activities{
+    #activities{
         width: auto;
     }
 
@@ -51,7 +51,7 @@ h3 {
 /* Téléphone */
 @media only screen and (max-width:767px){
 
-    .activities{
+    #activities{
         margin: 3%;
      }
 
